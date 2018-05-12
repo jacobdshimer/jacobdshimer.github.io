@@ -2,7 +2,7 @@ title: "About"
 permalink: /about/
 header:
   image: "/images/downtown_orlando1.jpeg" 
---
+---
 
 Cyber Security Analyst with a focus on host analysis and a passion for 
 software development.  Currently in school to receive a Bachelor of Science
