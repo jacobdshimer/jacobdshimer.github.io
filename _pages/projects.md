@@ -3,7 +3,7 @@ permalink: /projects/
 title: "Programming Projects"
 author_profile: true
 header:
-  image: ""
+  image: "/images/Downtown_Orlando,_Business_District.JPG"
 ---
 
 {% include base_path %}

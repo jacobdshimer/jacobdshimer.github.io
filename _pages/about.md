@@ -1,7 +1,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: ""
+  image: "/images/downtown_orlando1.jpeg" 
 --
 
 Cyber Security Analyst with a focus on host analysis and a passion for 
