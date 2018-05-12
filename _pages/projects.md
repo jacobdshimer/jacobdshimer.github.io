@@ -1,3 +1,4 @@
+---
 layout: archive
 permalink: /projects/
 title: "Programming Projects"
