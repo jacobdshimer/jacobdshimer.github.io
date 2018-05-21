@@ -25,7 +25,7 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Work Experience
 * Cyber Security Analyst - August 2016 to Present
-* 503 Cyber Protection Team
+503 Cyber Protection Team
   * Primarily assigned as a host analyst.
   * Developed and tested multiple scripts solve different problem sets.
   * Performed network analysis for various missions and kit maintenance, including bringing non-functioning Splunk cluster back online
@@ -37,9 +37,9 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Education
 * Seminole State College of Florida - August 2013
-* *Sanford, Florida*
+*Sanford, Florida*
   * Associate in Arts in General Education
 
 * University of Maryland University College - January 2017 - Present
-* *Online*
+*Online*
   * Bachelor of Science in Computer Science with a Minor in Cybersecurity
