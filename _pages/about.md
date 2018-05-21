@@ -24,8 +24,13 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
   * Software: Bro IDS, Snort IDS/IPS, Splunk, and Git
 
 ## Work Experience
+* Medic - January 2014 to January 2016
+<br>Womack Army Medical Center
+  * Assigned to the Surgical floor from January 2014 to January 2015
+  * Assigned to the Medical floor from January 2015 to January 2016
+
 * Cyber Security Analyst - August 2016 to Present
-503 Cyber Protection Team
+<br>Cyber Protection Brigade
   * Primarily assigned as a host analyst.
   * Developed and tested multiple scripts solve different problem sets.
   * Performed network analysis for various missions and kit maintenance, including bringing non-functioning Splunk cluster back online
@@ -37,9 +42,12 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Education
 * Seminole State College of Florida - August 2013
-*Sanford, Florida*
+<br>*Sanford, Florida*
   * Associate in Arts in General Education
 
+* Joint Cyber Assurance Center - January 2016 to August 2016
+<br>*Pensacola, Florida*
+
 * University of Maryland University College - January 2017 - Present
-*Online*
+<br>*Online*
   * Bachelor of Science in Computer Science with a Minor in Cybersecurity
