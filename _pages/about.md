@@ -12,16 +12,17 @@ toc_icon: "cog"
 Cyber Security Analyst with a focus on host analysis and a passion for
 software development.  Currently in school to receive a Bachelor of Science
 in Computer Science with a minor in Cybersecurity.  Once finished, planning on
-attending Georgia Tech to achieve a Masters of Science in Compuer Science with
+attending Georgia Tech to achieve a Masters of Science in Computer Science with
 a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Computer Skills
 * *Languages*
   * Proficient in: Python
-  * Familiar with: Java and C++
+  * Familiar with: Java, C++, and SPL (Splunk)
+  * Some knowledge: SQL and HTML
 * *Software*
   * Platforms: Ubuntu, Security Onion, and CentOS
-  * Software: Bro IDS, Snort IDS/IPS, Splunk, and Git
+  * Tools: Bro IDS, Snort, Splunk, and Git
 
 ## Work Experience
 * Medic - January 2014 to January 2016
@@ -33,7 +34,8 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 <br>Cyber Protection Brigade
   * Primarily assigned as a host analyst.
   * Developed and tested multiple scripts solve different problem sets.
-  * Performed network analysis for various missions and kit maintenance, including bringing non-functioning Splunk cluster back online
+  * Performed network analysis for various missions and OpenStack maintenance
+  * Performed as a Splunk administrator and user.
 
 ## Certifications
 * A+ 2010 to indefinite
