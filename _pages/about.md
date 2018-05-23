@@ -9,11 +9,10 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-Cyber Security Analyst with a focus on host analysis and a passion for
-software development.  Currently in school to receive a Bachelor of Science
-in Computer Science with a minor in Cybersecurity.  Once finished, planning on
-attending Georgia Tech to achieve a Masters of Science in Computer Science with
-a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
+Cyber Security Analyst with a passion for software development and learning data Science.  
+Currently in school to receive a Bachelor of Science in Computer Science with a minor in Cybersecurity.  
+Once finished, planning on attending Georgia Tech to achieve a Masters of Science in Computer Science
+with a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Computer Skills
 * *Languages*
@@ -49,6 +48,7 @@ a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 * Joint Cyber Assurance Center - January 2016 to August 2016
 <br>*Pensacola, Florida*
+<br> Earned Distinguished Honor Graduate, graduating 4th in class.
 
 * University of Maryland University College - January 2017 - Present
 <br>*Online*
