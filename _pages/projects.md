@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /projects/
-title: "Programming Projects"
+title: "Programming Projects by Tags"
 author_profile: true
 header:
   image: "/images/project_pages.png"
