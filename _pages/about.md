@@ -9,10 +9,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-Cyber Security Analyst with a passion for software development and learning data Science.  
-Currently in school to receive a Bachelor of Science in Computer Science with a minor in Cybersecurity.  
-Once finished, planning on attending Georgia Tech to achieve a Masters of Science in Computer Science
-with a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
+Cyber Security Analyst with a passion for software development and learning data Science.  Currently in school to receive a Bachelor of Science in Computer Science with a minor in Cybersecurity.  Once finished, planning on attending Georgia Tech to achieve a Masters of Science in Computer Science with a specialty in either Artificial Intelligence, Machine Learning, or Robotics.
 
 ## Computer Skills
 * *Languages*
