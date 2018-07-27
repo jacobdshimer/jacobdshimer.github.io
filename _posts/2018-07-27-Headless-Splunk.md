@@ -29,4 +29,4 @@ functions so far, one that sends searches to the Splunk backend and another that
 retrieves the status of the search.  Future additions will be actually receiving
 the search and formatting it.
 
-You can find the repository (HERE)[https://github.com/jacobdshimer/Remote-Splunk-Searching]
+You can find the repository [HERE](https://github.com/jacobdshimer/Remote-Splunk-Searching).
