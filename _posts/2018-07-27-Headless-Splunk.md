@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Running a Headless Splunk Search"
 date: 2018-07-27
 tags: [splunk, python]
