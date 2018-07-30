@@ -4,8 +4,6 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Posts by Year"
-    url: /year-archive/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
