@@ -37,6 +37,9 @@ Cyber Security Analyst with a passion for software development and learning data
 * A+ 2010 to indefinite
 * CEH - September 2016 - September 2019
 * Associate of CISSP December 2017 - December 2020
+* Splunk Certified User
+* Splunk Certified Power User
+* Splunk Certified Admin
 
 ## Education
 * Seminole State College of Florida - August 2013
