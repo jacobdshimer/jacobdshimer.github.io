@@ -3,7 +3,7 @@ layout: single
 title: "Update to: Running a Headless Splunk Search"
 date: 2018-07-30
 tags: [splunk, python]
-excerpt: "Sending searches to a Splunk Server and get the results. Now with command line capability"
+excerpt: "Send searches to a Splunk Server and get the results. Now with command line capability."
 header:
   image: "/images/Splunk_logo.png"
 ---
@@ -18,7 +18,7 @@ potentially via a file, and then grab all of their results.
 
 The username, password, and host are all required fields, kinda.  They are required in the sense that
 without them, the code won't work, but they are not required to be entered in the command line.  If
-it is not specified in the command line, the program will search within a settings.json file for the 
+it is not specified in the command line, the program will search within a settings.json file for the
 required information.  
 
 Output mode and output file kind of go hand-in-hand.  Output mode changes what the output of the
