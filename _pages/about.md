@@ -2,7 +2,8 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/assets/images/downtown_orlando1.jpeg"
+  image: "/assets/images/aboutme-page"
+  caption: "Photo by Markus Spiske on [**Unsplash**](https://unsplash.com)"
 
 toc: true
 toc_label: "Table of Contents"
