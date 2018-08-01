@@ -5,7 +5,7 @@ date: 2018-07-27
 tags: [splunk, python]
 excerpt: "Send searches to a Splunk Server and get the results."
 header:
-  image: "/images/Splunk_logo.png"
+  image: "/assets/images/Splunk_logo.png"
 ---
 
 # Creating a Python program that Runs Splunk Headless

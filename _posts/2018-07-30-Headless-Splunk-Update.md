@@ -5,7 +5,7 @@ date: 2018-07-30
 tags: [splunk, python]
 excerpt: "Send searches to a Splunk Server and get the results. Now with command line capability."
 header:
-  image: "/images/Splunk_logo.png"
+  image: "/assets/images/Splunk_logo.png"
 ---
 
 # Updates to the Headless Splunk search script

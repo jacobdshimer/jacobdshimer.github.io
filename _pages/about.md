@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/downtown_orlando1.jpeg"
+  image: "/assets/images/downtown_orlando1.jpeg"
 
 toc: true
 toc_label: "Table of Contents"
