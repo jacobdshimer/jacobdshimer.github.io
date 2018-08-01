@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/assets/images/aboutme-page"
+  image: "/assets/images/aboutme-page.jpg"
   caption: "Photo by Markus Spiske on [**Unsplash**](https://unsplash.com)"
 
 toc: true
