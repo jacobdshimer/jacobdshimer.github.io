@@ -6,6 +6,8 @@ tags: [splunk, python]
 excerpt: "Send searches to a Splunk Server and get the results. Now with command line capability."
 header:
   overlay_image: "/assets/images/Splunk_logo.png"
+  overlay_color: "#000"
+  overlay_filter: 0.6
 ---
 
 # Updates to the Headless Splunk search script

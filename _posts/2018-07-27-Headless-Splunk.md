@@ -6,6 +6,8 @@ tags: [splunk, python]
 excerpt: "Send searches to a Splunk Server and get the results."
 header:
   overlay_image: "/assets/images/Splunk_logo.png"
+  overlay_color: "#000"
+  overlay_filter: 0.6
 ---
 
 # Creating a Python program that Runs Splunk Headless

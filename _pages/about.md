@@ -2,9 +2,10 @@
 title: "About"
 permalink: /about/
 header:
+  overlay_color: "#000"
   overlay_image: "/assets/images/aboutme-page.jpg"
   caption: "Photo by Markus Spiske on [**Unsplash**](https://unsplash.com)"
-
+  overlay_filter: 0.6
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
