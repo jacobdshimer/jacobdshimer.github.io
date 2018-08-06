@@ -1,6 +1,6 @@
 ---
 layout: tags
-permalink: /projects/
+permalink: /tags/
 title: "Programming Projects by Tags"
 author_profile: true
 header:
