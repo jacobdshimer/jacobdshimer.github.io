@@ -1,6 +1,7 @@
 ---
 title: "Microblog Project from 'Project Based Learning'"
 header:
+  show_overlay_excerpt: False
   overlay_image: "/assets/images/microblog-portfolio-page.jpg"
   overlay_color: "#000"
   overlay_filter: 0.6
