@@ -7,3 +7,5 @@ header:
   teaser: assets/images/microblog-portfolio-page-teaser.jpg
   caption: "Photo by Galymzhan Abdugalimov on [**Unsplash**](https://unsplash.com)"
 ---
+
+[Part One: Creating the login, logoff, and registration forms along with the backend database for users.]({{site.baseurl}}{% post_url 2018-08-06-microblog-part-one %})
