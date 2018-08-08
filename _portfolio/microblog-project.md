@@ -15,4 +15,5 @@ The goal of this project is to be able to create a blogging platform for users t
 
 One of my takeaways from this project is a computer science principle called 'separation of concerns'.  This is a principle that I realized that I always adhered to in my previous projects.  The separation of concerns principle is a design principle for separating a computer program into distinct sections, each in charge of a separate concern.  A concern here is a set of information that affects the code of a computer program or software functionality.  The author utilized this principle throughout the tutorial, creating scripts that handled different areas or problems when it comes to building a microblog.  The following links will guide you through my creation process for this project:
 
-[Part One: Creating the login, logoff, and registration forms along with the backend database for users.]({{site.baseurl}}{% post_url 2018-08-06-microblog-part-one %})
+[Part One: Initializing the flask app and building out the directory structure.]({{site.baseurl}}{% post_url 2018-08-06-microblog-part-one %})
+[Part Two: Creating the template pages that will be used.]({{site.baseurl}}{% post_url 2018-08-08-microblog-part-two %})

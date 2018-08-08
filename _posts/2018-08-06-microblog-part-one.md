@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Part One: Building a Microblog using Flask"
-date: 2018-07-30
+date: 2018-08-06
 tags: [flask, python]
-excerpt: "Creating the login, logoff, and registration forms along with the backend database for users."
+excerpt: "Initializing the flask app and building out the directory structure."
 header:
 #  overlay_image: "/assets/images/Splunk_logo.png"
 #  overlay_color: "#000"
@@ -12,7 +12,7 @@ header:
 
 # Introduction
 
-This post will encompass the first five chapters from the tutorial that I followed.  I will seperate the different sections of this post with the different chapters and explain what I did within the chapter.
+This post will encompass the first chapter from the tutorial that I followed.  I will group the different chapters as I go through them and explain what I did within the chapter.
 
 ## Chapter One - Initialize the Flask App
 
@@ -65,16 +65,5 @@ Or if a Windows user:
 
 In order to run your app, run the following command in your prompt: flask run.  You should see some information about your Flask server, specifically what app its running, what IP address and what port it is using. Take note of the port and navigate to http://localhost:5000 to see your application. Pretty cool, right?
 
-## Chapter Two - Creating Templates
-
-
-
-## Chapter Three - Web Forms
-
-
-
-## Chapter Four - User Database
-
-
-
-## Chapter Five - Handling User Logons
+(HERE)[https://github.com/jacobdshimer/microblog] is a link to my GitHub repository that contains my working version of the microblog.
+(HERE)[https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world] is a link to the tutorial page for this part.
