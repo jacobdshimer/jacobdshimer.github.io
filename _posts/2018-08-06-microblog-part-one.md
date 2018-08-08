@@ -51,7 +51,7 @@ To complete the application, we need to create the top-level script that defines
 
 Now this is might be a little confusing.  We are importing the app variable which is the Flask application instance from the app package.  Now in order to run this you need to add the FLASK_APP environmental variable.  This can be done one of two ways depending on your operating system.
 
-For Linux users, you will run the following command: export FLASK_APP=
+For Linux users, you will run the following command:
 
 {% highlight bash %}
   export FLASK_APP=microblog.py
@@ -63,7 +63,7 @@ Or if a Windows user:
   set FLASK_APP=microblog.py
 {% endhighlight %}
 
-In order to run your app, run the following command in your prompt: flask run.  You should see some information about your Flask server, specifically what app its running, what IP address and what port it is using. Take note of the port and navigate to http://localhost:5000 to see your application. Pretty cool, right? 
+In order to run your app, run the following command in your prompt: flask run.  You should see some information about your Flask server, specifically what app its running, what IP address and what port it is using. Take note of the port and navigate to http://localhost:5000 to see your application. Pretty cool, right?
 
 ## Chapter Two - Creating Templates
 
