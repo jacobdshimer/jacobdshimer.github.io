@@ -105,7 +105,7 @@ So now we have an index page, what now? Well most websites like to have a naviga
       <body>
           <div>Microblog: <a href="/index">Home</a></div>
           <hr>
-          {% block content %} {% endblock %}
+          { block content } { endblock %}
       </body>
   </html>
 {% endhighlight %}
