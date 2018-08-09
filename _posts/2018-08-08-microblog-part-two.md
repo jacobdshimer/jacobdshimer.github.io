@@ -20,8 +20,7 @@ This part of the tutorial covers templating in HTML.  Say you wanted each user t
 
 Within the app directory, create another directory titled templates.  This folder will contain all of your websites template webpages that will be used to create your dynamic web pages.  The first template we're going to create is the going to be index.html:
 
-{% highlight html %}
-  {% raw %}
+{% highlight html %}{% raw %}
   <html>
       <head>
           <title>{{ title }} - Microblog</title>
@@ -30,8 +29,7 @@ Within the app directory, create another directory titled templates.  This folde
           <h1>Hello, {{ user.username }}!</h1>
       </body>
   </html>
-  {% endraw %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 See the part in {{ ... }}?  These are placeholders for our dynamic content.  The title part is pretty self explanatory, but the user.username part might need some explanation.  This is referring to a variable user that has a key value pair where the key is username.  Now we need to edit our routes.py script to point to the new content.
 
@@ -49,8 +47,7 @@ See the part in {{ ... }}?  These are placeholders for our dynamic content.  The
 Going over the changes we made, we are importing the render_template function from flask in order to use flasks (Jinja2)[http://jinja.pocoo.org/] template engine and we created a mock user for testing called Miguel.  Miguel is a placeholder until we develop the concept of users with our website.  Jinja2 is a very powerful rendering engine and can easily handle conditional statements and loops.  The following shows what we will do to utilize these two concepts within our index.html template and routes.py script.
 
 The index.html:
-{% highlight html %}
-  {% raw %}
+{% highlight html %}{% raw %}
   <html>
       <head>
           {% if title %}
@@ -66,8 +63,7 @@ The index.html:
           {% endfor %}
       </body>
   </html>
-  {% endraw %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 Within index.html, you can see we implement an if condition and a for loop.  If the variable title exists, then it will change the title of the webpage to what is contained in the variable title - Microblog.  If it the title variable doesn't exist, then it will use a default title.  The for loop loops through the a list called posts and then create a div for each post's author's username and the body of the post.
 
@@ -97,8 +93,7 @@ Here you can see how this is done with the render_template.  The template page i
 
 So now we have an index page, what now? Well most websites like to have a navigation bar at the top and for statically generated website, the navigation bar has to be typed in for each page.  We can easily do that by changing our index.html to point to a base.html that will handle the header elements.  The base.html will look like this:
 
-{% highlight html %}
-  {% raw %}
+{% highlight html %}{% raw %}
   <html>
       <head>
         {% if title %}
@@ -113,15 +108,13 @@ So now we have an index page, what now? Well most websites like to have a naviga
           {% block content %}{% endblock %}
       </body>
   </html>
-  {% endraw %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 Notice the div block that has an a tag pointing to our index.html?  This is the start of our navigation bar.  See the {% block content %} tag? This will be where our templates will be inserted.
 
 Our index.html document will look like this now:
 
-{% highlight html %}
-  {% raw %}
+{% highlight html %}{% raw %}
   {% extends "base.html" %}
 
   {% block content %}
@@ -130,8 +123,7 @@ Our index.html document will look like this now:
       <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
       {% endfor %}
   {% endblock %}
-  {% endraw %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 The area surrounded by { % block content %} tells flask to insert this into the document that is being extended in the {% extends %} tag.
 
