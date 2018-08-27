@@ -1,5 +1,5 @@
 ---
-title: Security Onion App for Splunk"
+title: Security Onion App for Splunk
 excerpt: "Creating a new Security Onion 16.04 Compliant App for Splunk"
 header:
   show_overlay_excerpt: False
