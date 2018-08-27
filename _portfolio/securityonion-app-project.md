@@ -17,3 +17,6 @@ This will probably become a multipart project.  The last time the Security Onion
 My goal for this project is to take the dashboards developed in Kibana by the Security Onion team and implement them in Splunk.  I will also be looking over the old Security Onion app and see what I can implement from their dashboards into this updated app.
 
 I will be writing posts and will link them here, providing a brief description with each post.  Once the app is finished I will package it up and put it onto [splunkbase](https://splunkbase.splunk.com/).  If I need to update the app, I will post them here.  Future goals will be be to add a setup page for the app to auto-edit some of the configuration files.
+
+Security Onion's website can be found [here](https://securityonion.net/)
+Security Onion's GitHub can be found [here](https://github.com/security-onion-solutions/security-onion/wiki/IntroductionToSecurityOnion)
