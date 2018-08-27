@@ -65,5 +65,5 @@ Or if a Windows user:
 
 In order to run your app, run the following command in your prompt: flask run.  You should see some information about your Flask server, specifically what app its running, what IP address and what port it is using. Take note of the port and navigate to http://localhost:5000 to see your application. Pretty cool, right?
 
-(HERE)[https://github.com/jacobdshimer/microblog] is a link to my GitHub repository that contains my working version of the microblog.
-(HERE)[https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world] is a link to the tutorial page for this part.
+* [HERE](https://github.com/jacobdshimer/microblog) is a link to my GitHub repository that contains my working version of the microblog.
+* [HERE](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) is a link to the tutorial page for this part.
