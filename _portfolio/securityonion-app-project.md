@@ -18,7 +18,7 @@ My goal for this project is to take the dashboards developed in Kibana by the Se
 
 I will be writing posts and will link them here, providing a brief description with each post.  Once the app is finished I will package it up and put it onto [splunkbase](https://splunkbase.splunk.com/ "Splunkbase").  If I need to update the app, I will post them here.  Future goals will be be to add a setup page for the app to auto-edit some of the configuration files.
 
-1. Creating the basic skeleton of the app [here](({{site.baseurl}}{% post_url 2018-08-22-security-onion-app-first-post %})
+1. Creating the basic skeleton of the app [here]({{site.baseurl}}{% post_url 2018-08-22-security-onion-app-first-post %})
 
 Security Onion's website can be found [here](https://securityonion.net/ "Security Onion")
 
