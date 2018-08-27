@@ -14,11 +14,11 @@ header:
 
 There are mutliple ways to start creating an app.  I followed the initial tutorial on [Splunk Dev](http://dev.splunk.com/view/quickstart/SP-CAAAFDC "Splunk Dev") to get started. This app will follow the Common Information Module, though it will not utilize the add-on developed by Splunk.  The Common Information Module is an open standard that defines how managed elements in an IT environment are represented as a common set of objects and relationships between them.  What this means for the app: without the CIM and if you wanted to output the data within the sguild sourcetype and the bro_conn sourcetype, you would have to run the command:
 
-sourcetype=sguild sourcetype=bro_conn id.orig_h=1.1.1.1 src_ip=1.1.1.1 | do stuff...
+    sourcetype=sguild sourcetype=bro_conn id.orig_h=1.1.1.1 src_ip=1.1.1.1 | do stuff...
 
 With using the CIM this command is shortened:
 
-sourcetype=sguild sourcetype=bro_conn src=1.1.1.1 | do stuff...
+    sourcetype=sguild sourcetype=bro_conn src=1.1.1.1 | do stuff...
 
 After setting this up, I then created four basic dashboards: the BASE DASHBOARD, the Host Dashboard, the Port Dashboard, and the UID Dashboard.  These are the basis for all of my other dashboards.  The BASE DASHBOARD I use to make sure that the head of my dashboards are all similar.  What this means is that I created placeholders in all of my searches once I got the information I needed.  
 
