@@ -30,15 +30,15 @@ This returns only the data where the Source IP, Source Port, Destination IP, and
 
 {% highlight mysql linenos %}
   SELECT event.timestamp AS start_time, s2.sid, s2.hostname
-                             FROM event
-                             LEFT JOIN sensor ON event.sid = sensor.sid
-                             LEFT JOIN sensor AS s2 ON sensor.net_name = s2.net_name
-                             WHERE timestamp BETWEEN '[start]' AND '[end]'
-                             AND ((src_ip = INET_ATON('[src_ip]') AND src_port = [src_port] 
-                             AND dst_ip = INET_ATON('[dest]') AND dst_port = [dest_port] )
-                             OR (src_ip = INET_ATON('[dest]') AND src_port = [dest_port] 
-                             AND dst_ip = INET_ATON('[src_ip]') AND dst_port = [src_port] ))
-                             AND s2.agent_type = 'pcap' LIMIT 1";
+         FROM event
+         LEFT JOIN sensor ON event.sid = sensor.sid
+         LEFT JOIN sensor AS s2 ON sensor.net_name = s2.net_name
+         WHERE timestamp BETWEEN '[start]' AND '[end]'
+         AND ((src_ip = INET_ATON('[src_ip]') AND src_port = [src_port] 
+         AND dst_ip = INET_ATON('[dest]') AND dst_port = [dest_port] )
+         OR (src_ip = INET_ATON('[dest]') AND src_port = [dest_port] 
+         AND dst_ip = INET_ATON('[src_ip]') AND dst_port = [src_port] ))
+         AND s2.agent_type = 'pcap' LIMIT 1";
   
 {% endhighlight %}
 
