@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Security Onion Splunk App - First Post"
-date: 2018-07-30
+date: 2018-08-22
 tags: [splunk, security onion, app development]
 excerpt: "Creating the basic skeleton for a Splunk App"
 header:
