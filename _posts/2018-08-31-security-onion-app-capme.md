@@ -8,13 +8,14 @@ header:
   overlay_color: "#000"
   overlay_filter: 0.6
 ---
-# Index
+
+# CapMe Functionality and Pulling PCAPs
+
+## Index
 
 1. Creating the basic skeleton of the app [here]({{site.baseurl}}{% post_url 2018-08-22-security-onion-app-first-post %})
 2. Getting base CapMe functionality [THIS POST]
 3. Finalizing CapMe functionality [here]({{site.baseurl}}{% post_url 2018-09-05-security-onion-app-capme-finished %})
-
-# CapMe Functionality and Pulling PCAPs
 
 Something I've been banging my head on trying to figure out the last week was how to get the CapMe functionality that the ELK stack within Security Onion enjoys. The way I thought ELK was using CapMe was by querying the sguild database which for security onion was renamed the securityonion_db within MySQL. Within this database are lots of tables, but the most important one is the event table. Every sguild event is stored within this table.
 
