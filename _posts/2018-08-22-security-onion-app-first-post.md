@@ -10,6 +10,12 @@ header:
   overlay_filter: 0.6
 ---
 
+# Index
+
+1. Creating the basic skeleton of the app [THIS POST]
+2. Getting base CapMe functionality [here]({{site.baseurl}}{% post_url 2018-08-31-security-onion-app-capme %})
+3. Finalizing CapMe functionality [here]({{site.baseurl}}{% post_url 2018-09-05-security-onion-app-capme-finished %})
+
 # Creating the basic skeleton for a Splunk App
 
 There are mutliple ways to start creating an app.  I followed the initial tutorial on [Splunk Dev](http://dev.splunk.com/view/quickstart/SP-CAAAFDC "Splunk Dev") to get started. This app will follow the Common Information Module, though it will not utilize the add-on developed by Splunk.  The Common Information Module is an open standard that defines how managed elements in an IT environment are represented as a common set of objects and relationships between them.  What this means for the app: without the CIM and if you wanted to output the data within the sguild sourcetype and the bro_conn sourcetype, you would have to run the command:
@@ -27,3 +33,4 @@ I have five fields setup at the top of each dashboard: a timepicker, a radio but
 Below my fields is a custom HTML panel that just outputs the data from the fields to the screen.  This is to help the analyst looking at the dashboard know what they are drilling down on, if they forgot.
 
 Below my custom HTML is two basic panels, the log count and log count over time.  The log count panel is just a simple single number panel that is the count of all logs for that log type.  The log count over time panel, on the other hand, is a timechart.  Whats cool about the log count over time is that it is the only panel that gets its time selector from the timepicker.  Everything else gets their timepicker from the selection made on the timepicker. If there is no selection, then the selection defaults to everything covered by the timepicker's time range.
+
