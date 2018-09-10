@@ -10,13 +10,13 @@ header:
   overlay_filter: 0.6
 ---
 
-# Index
+# Creating the basic skeleton for a Splunk App
+
+## Index
 
 1. Creating the basic skeleton of the app [THIS POST]
 2. Getting base CapMe functionality [here]({{site.baseurl}}{% post_url 2018-08-31-security-onion-app-capme %})
 3. Finalizing CapMe functionality [here]({{site.baseurl}}{% post_url 2018-09-05-security-onion-app-capme-finished %})
-
-# Creating the basic skeleton for a Splunk App
 
 There are mutliple ways to start creating an app.  I followed the initial tutorial on [Splunk Dev](http://dev.splunk.com/view/quickstart/SP-CAAAFDC "Splunk Dev") to get started. This app will follow the Common Information Module, though it will not utilize the add-on developed by Splunk.  The Common Information Module is an open standard that defines how managed elements in an IT environment are represented as a common set of objects and relationships between them.  What this means for the app: without the CIM and if you wanted to output the data within the sguild sourcetype and the bro_conn sourcetype, you would have to run the command:
 
