@@ -11,13 +11,13 @@ header:
 
 # Finished CapMe Functionality
 
-I have finished building out the CapMe functionality.  It only took me all weekend to analyze and convert the original elastic.php, elastic.js, and callback-elastic.php to Splunk specific files.  I copied these three files, replacing elastic with Splunk of course, and gutted them, keeping the bones of the files. 
-
-# Index
+## Index
 
 1. Creating the basic skeleton of the app [here]({{site.baseurl}}{% post_url 2018-08-22-security-onion-app-first-post %})
 2. Getting base CapMe functionality [here]({{site.baseurl}}{% post_url 2018-08-31-security-onion-app-capme %})
 3. Finalizing CapMe functionality [THIS POST]
+
+I have finished building out the CapMe functionality.  It only took me all weekend to analyze and convert the original elastic.php, elastic.js, and callback-elastic.php to Splunk specific files.  I copied these three files, replacing elastic with Splunk of course, and gutted them, keeping the bones of the files. 
 
 ## splunk.php and splunk.js
 
