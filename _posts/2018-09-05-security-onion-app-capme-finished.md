@@ -47,7 +47,7 @@ The fourth function handles the second Splunk query looking for the actual connn
 
 The next two functions go together, the first checks if the search job is done.  I did this by putting my CURL command within a do while loop, waiting for the isDone field to turn true.  If isDone field is true and isFailed is true, it returns the error back to the main program.  If not, it returns the fact that it is finished to the main program.  The next function gets the results from Splunk and returning just the results back to the main program.
 
-The rest of the code just replaces Elastic specific code with Splunk code.  One other difference is that Elastic sends the date back in "Y-m-d H:M:S" format while I'm sending the time back in epoch time.  Where they first convert their timestamps to epoch time, I leave mine alone and where they format their timestamp, I convert and format in one line. Unfortunately I can not publish the code on GitHub yet, but once I do, I will provide a link down below.  
+The rest of the code just replaces Elastic specific code with Splunk code.  One other difference is that Elastic sends the date back in "Y-m-d H:M:S" format while I'm sending the time back in epoch time.  Where they first convert their timestamps to epoch time, I leave mine alone and where they format their timestamp, I convert and format in one line.  
 
 ## Conclusion
 
