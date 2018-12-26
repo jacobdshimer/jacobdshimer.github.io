@@ -27,8 +27,44 @@ I've changed the way the top of the each dashboard looks like and added an addit
 
 Before, the only filtering that was possible was through IP addresses and Port numbers.  I decided that that was very limiting and created a new mechanic.  This mechanic consist of a dropdown and a multiselect box.  The dropdown corresponds to the available fields within the sourcetype.  The multiselect takes the token from the dropdown and applies its value to both the search that powers the multiselect and to the valuePrefix for the multiselect.  So for example, if the user selected the UID field and selected a UID from the multiselect, then the value from that multiselect would look like this: (uid="example_uid").  If the user selected two UID's to search for, it would look like this: (uid="example_1_uid") OR (uid="example_2_uid").  Unfortunately, the user can only search with one field, but they can search for multiple elements within that field.  I will continue trying to find a way to enable multiple field searching.
 
+Here is how I created the new filters
+
+```
+<panel>
+  <title>Custom Filtering - Currently only one field at a time</title>
+  <input type="dropdown" token="field" searchWhenChanged="true">
+    <label>Select a Field:</label>
+    <fieldForLabel>field</fieldForLabel>
+    <fieldForValue>field</fieldForValue>
+    <search>
+      <query>sourcetype="bro_conn" | fieldsummary | table field</query>
+      <earliest>$selection.earliest$</earliest>
+      <latest>$selection.latest$</latest>
+    </search>
+    <initialValue>uid</initialValue>
+  </input>
+  <input type="multiselect" token="search_token" searchWhenChanged="true">
+    <label>Search Terms</label>
+    <prefix>(</prefix>
+    <suffix>)</suffix>
+    <delimiter> OR  </delimiter>
+    <choice value="*">All</choice>
+    <valuePrefix>$field$="</valuePrefix>
+    <valueSuffix>"</valueSuffix>
+    <fieldForLabel>$field$</fieldForLabel>
+    <fieldForValue>$field$</fieldForValue>
+    <search>
+      <query>sourcetype=bro_conn | stats count by $field$</query>
+      <earliest>$selection.earliest$</earliest>
+      <latest>$selection.latest$</latest>
+    </search>
+    <initialValue>*</initialValue>
+  </input>
+</panel>
+```
+
 <figure class="half">
    <a href="/assets/images/seconion_app_new_filtering-1.PNG"><img src="/assets/images/seconion_app_new_filtering-1.PNG"></a>
    <a href="/assets/images/seconion_app_new_filtering-2.PNG"><img src="/assets/images/seconion_app_new_filtering-2.PNG"></a>
-   <figcaption>Updated Views</figcaption>
+   <figcaption>New Filtering Mechanic</figcaption>
 </figure>
