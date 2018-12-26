@@ -29,7 +29,7 @@ Before, the only filtering that was possible was through IP addresses and Port n
 
 Here is how I created the new filters
 
-```
+```xml
 <panel>
   <title>Custom Filtering - Currently only one field at a time</title>
   <input type="dropdown" token="field" searchWhenChanged="true">
