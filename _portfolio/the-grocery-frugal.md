@@ -1,8 +1,6 @@
 ---
-layout: single
 title: "The Grocery Frugal - The Beginning"
-date: 2019-06-11
-tags: [java, hibernate, postgresql]
+excerpt: "Creating The Grocery Frugal"
 header:
   overlay_image: "assets/images/the-grocery-frugal/andrew-neel-308138-unsplash.jpg"
   caption: "Photo by Andrew Neel on [**Unsplash**](https://unsplash.com)"
