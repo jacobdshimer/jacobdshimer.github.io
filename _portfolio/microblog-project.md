@@ -3,10 +3,10 @@ title: "Microblog Project from 'Project Based Learning'"
 excerpt: "Creating a blogging platform for users to create and share posts. "
 header:
   show_overlay_excerpt: False
-  overlay_image: "/assets/images/microblog-portfolio-page.jpg"
+  overlay_image: "/assets/images/microblog/microblog-portfolio-page.jpg"
   overlay_color: "#000"
   overlay_filter: 0.6
-  teaser: assets/images/microblog-portfolio-page-teaser.jpg
+  teaser: assets/images/microblog/microblog-portfolio-page-teaser.jpg
   caption: "Photo by Galymzhan Abdugalimov on [**Unsplash**](https://unsplash.com)"
 ---
 # Description of Project
