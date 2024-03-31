@@ -73,7 +73,7 @@ Lead Backend Software Engineer with over eight years of experience in Software D
 - Master of Science in Computer Science (3.25) - 2021 to Present
   <br>_Georgia Institute of Technology_
 - Bachelor of Science in Computer Science (3.5) - 2016 to 2019
-  <br>_Georgia Institute of Technology_
+  <br>_University of Maryland Global Campus_
 
   - Led backend development for the Grocery Frugal project, creating the PostgreSQL database, logic with Java's Hibernate ORM, and teaching fellow students backend fundamentals, Git, and Hibernate in study sessions to enhance collaboration.
 
